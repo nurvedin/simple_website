@@ -1,0 +1,42 @@
+.indexbody {
+    font-family: 'Lucida Sans';
+    text-align: center;
+    color: rgb(255, 240, 247);
+    background: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.indexbody a {
+    color: rgb(255, 240, 247);
+}
+
+.aboutbody{
+    background-color: lightskyblue;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+
+
+.about a {
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+
+.blog {
+    background-color: lightskyblue;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.contact {
+    background-color: lightskyblue;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}

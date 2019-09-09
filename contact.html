@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="utf-8"/>
         <title>1DV525!</title>
     </head>
     <body>
-        <h1>My first website!</h1>
-        <a href="index.html">Index</a>
-        <a href="about.html">About</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-
-        <form method="POST"><br>
-            <fieldset>
-                <legend>Ask your question</legend>
-                Type:
-                <select name="question">
-                    <option value="question">Question</option>
-                    <option value="question2">Question2</option>
-                    <option value="question3">Question3</option>
-                </select><br>
-                Name:
-                <input type="text" name="name"><br>
-                Question:
-                <textarea name="question" rows="5" cols="30"></textarea>
-            </fieldset>
-            <fieldset>
-                <legend>How should I contact you?</legend>
-                Telephone:
-                <input type="checkbox" name="telephone"><br>
-                E-mail:
-                <input type="checkbox" name="email">
-            </fieldset>
-            <input type="submit" value="Send">
-        </form>
+        <main class="contact">
+            <h1>My first website!</h1>
+            <a href="index.html">Index</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        
+            <form method="POST"><br>
+                <fieldset>
+                    <legend>Ask your question</legend>
+                    Type:
+                    <select name="question">
+                        <option value="question">Question</option>
+                        <option value="question2">Question2</option>
+                        <option value="question3">Question3</option>
+                    </select><br>
+                    Name:
+                    <input type="text" name="name"><br>
+                    Question:
+                    <textarea name="question" rows="5" cols="30"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>How should I contact you?</legend>
+                    Telephone:
+                    <input type="checkbox" name="telephone"><br>
+                    E-mail:
+                    <input type="checkbox" name="email">
+                </fieldset>
+                <input type="submit" value="Send">
+            </form>
+        </main>
     </body>
 </html>
