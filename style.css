@@ -23,24 +23,14 @@
     padding-right: 100px;
 }
 
-h2 {
-    text-align: center;
+.orderdList {
+    text-align: left;
+    display: inline-block;
 }
 
-ol {
-    text-align: center;
-    padding-left: 500px;
-    padding-right: 500px;
-}
-
-h3 {
-    text-align: center;
-}
-
-ul {
-    text-align: center;
-    padding-left: 500px;
-    padding-right: 500px;
+.unorderdList {
+    text-align: left;
+    display: inline-block;
 }
 
 img {
@@ -49,11 +39,21 @@ img {
 }
 
 .blog {
-    background-color: lightskyblue;
+    background: #b92b27;
+    background: -webkit-linear-gradient(to right, #b92b27, #1565c0); 
+    background: linear-gradient(to right, #b92b27, #1565c0); 
     font-family: 'Lucida Sans';
     text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.blog article {
+    border: solid;
+}
+
+.blog header {
+    font-size: 150%;
 }
 
 .contact {
