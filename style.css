@@ -57,9 +57,23 @@ img {
 }
 
 .contact {
-    background-color: lightskyblue;
+    background: #b92b27;
+    background: -webkit-linear-gradient(to right, #b92b27, #1565c0); 
+    background: linear-gradient(to right, #b92b27, #1565c0); 
     font-family: 'Lucida Sans';
     text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.contact form {
+    text-align: left;
+}
+
+.question {
+    margin-left: 32px;
+}
+
+.nameInput {
+    margin-left: 25px;
 }
