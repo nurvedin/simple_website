@@ -2,4 +2,3 @@ User-agent: *
 Disallow: /1DV525_nd222dp_exam1/nd222dp-examination-1/contact.html/
 Allow: /style.css
 
-Sitemap: https://1dv525.github.io/nd222dp-examination-1/sitemap.xml
