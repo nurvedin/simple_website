@@ -10,7 +10,16 @@
 }
 
 .indexbody a {
+    padding-right: 20px;
+    padding-left: 20px;
     color: rgb(255, 240, 247);
+}
+
+.indexbody a:hover {
+    color: rgb(255, 240, 247);
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
 }
 
 .about {
@@ -68,6 +77,18 @@ img {
 
 .contact form {
     text-align: left;
+}
+
+nav a {
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+nav a:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
 }
 
 .question {
