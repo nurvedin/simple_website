@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /1DV525_nd222dp_exam1/nd222dp-examination-1/contact.html/
+Disallow: /html/contact.html
 Allow: /style.css
 
