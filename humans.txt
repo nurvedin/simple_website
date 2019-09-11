@@ -1,0 +1,13 @@
+/* TEAM */
+
+Your titel: Nurvedin Dizdarevic
+Site: nd222dp@student.lnu.se
+Twitter: nurvedin
+Location: Växjö, Sweden
+
+
+/* SITE */
+
+Last update: 2019/09/11
+Standards: HTML, CSS
+Software: Visual Studio Code
